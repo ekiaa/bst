@@ -1,0 +1,6 @@
+[{<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.6">>},1},
+ {<<"lager">>,{pkg,<<"lager">>,<<"2.1.1">>},0},
+ {<<"gen_object">>,
+  {git,"https://github.com/ekiaa/gen_object.git",
+       {ref,"f92dabc25752b150d5af76c4963cdb793d83c7be"}},
+  0}].

@@ -1,16 +1,18 @@
-{application, 'bst',
- [{description, "An OTP application"},
-  {vsn, "0.1.0"},
-  {registered, []},
-  {mod, {'bst_app', []}},
-  {applications,
-   [kernel,
-    stdlib
-   ]},
-  {env,[]},
-  {modules, []},
+{application, 'bst', [
+	{description, "An OTP application"},
+	{vsn, "0.1.0"},
+	{registered, []},
+	{mod, {'bst_app', []}},
+	{applications, [
+		kernel,
+		stdlib,
+		lager,
+		gen_object
+	]},
+	{env,[]},
+	{modules, []},
 
-  {contributors, []},
-  {licenses, []},
-  {links, []}
- ]}.
+	{contributors, []},
+	{licenses, []},
+	{links, []}
+]}.
